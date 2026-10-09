@@ -1,0 +1,28 @@
+{
+  "rewrites": [
+    {
+      "source": "/api-proxy/:path*",
+      "destination": "https://maxxapi-md.vercel.app/:path*"
+    },
+    {
+      "source": "/api/courses",
+      "destination": "https://studyapkmod-targetboard.vercel.app/api/courses"
+    },
+    {
+      "source": "/api/course-content",
+      "destination": "https://studyapkmod-targetboard.vercel.app/api/course-content"
+    },
+    {
+      "source": "/api-proxy-sachin/batches",
+      "destination": "https://sachinweb.pages.dev/batches.json"
+    },
+    {
+      "source": "/api-proxy-sachin/:path*",
+      "destination": "https://sachinweb.pages.dev/get/api/:path*"
+    },
+    {
+      "source": "/api/ms/:path*",
+      "destination": "/api/ms?p=:path*"
+    }
+  ]
+}

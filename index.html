@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>CODEX STUDYS | App Store</title>
+<meta name="description" content="CODEX STUDYS App Store - all your study apps in one place, for free.">
+<meta name="theme-color" content="#05070f">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="logo-64.png">
+<link rel="apple-touch-icon" href="logo-192.png">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="splash">
+  <img src="logo-192.png" alt="CODEX STUDYS">
+  <h1>CODEX <b>STUDYS</b></h1>
+  <p>Learn anything, anywhere - for free</p>
+  <div class="bar"><i></i></div>
+</div>
+
+<div id="app">
+  <aside class="side">
+    <a class="brand" href="#/">
+      <img src="logo-64.png" alt="">
+      <div><h1>CODEX <b>STUDYS</b></h1><p>App Store</p></div>
+    </a>
+    <label class="search"><i class="ri-search-2-line"></i><input class="q" type="search" placeholder="Search apps..." autocomplete="off"></label>
+    <nav class="sidenav"></nav>
+    <div class="side-links">
+      <a href="https://t.me/s/codexstudys" target="_blank" rel="noopener"><i class="ri-telegram-fill"></i>Join Telegram</a>
+      <a href="https://whatsapp.com/channel/0029VbDI2CGEAKWNSoya5L2w" target="_blank" rel="noopener"><i class="ri-whatsapp-fill"></i>Join WhatsApp</a>
+    </div>
+  </aside>
+
+  <main class="main">
+    <section id="view-home">
+      <header class="top">
+        <a class="brand" href="#/"><img src="logo-64.png" alt=""><div><h1>App Store</h1><p>CODEX STUDYS</p></div></a>
+        <a class="avatar" href="https://t.me/s/codexstudys" target="_blank" rel="noopener" aria-label="Telegram"><img src="logo-64.png" alt=""></a>
+      </header>
+      <label class="search mobile-search"><i class="ri-search-2-line"></i><input class="q" type="search" placeholder="Search apps..." autocomplete="off"></label>
+
+      <div class="banner" id="banner" aria-roledescription="carousel">
+        <div class="slides"></div>
+        <div class="dots"></div>
+      </div>
+
+      <div class="sec-head"><h2 id="secTitle"></h2><span id="secCount"></span></div>
+      <div id="list"></div>
+      <div id="empty" hidden>
+        <div class="ico"><i class="ri-search-eye-line"></i></div>
+        <h3>No results found</h3>
+        <p id="emptyMsg">Try a different search or filter.</p>
+        <button id="clearBtn">Clear filters</button>
+      </div>
+    </section>
+
+    <section id="view-detail" hidden></section>
+  </main>
+
+  <nav class="tabbar" aria-label="Browse"></nav>
+</div>
+
+<div id="toast" role="status"></div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

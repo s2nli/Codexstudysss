@@ -1,0 +1,84 @@
+/*.html
+  Cache-Control: no-cache
+/*.js
+  Cache-Control: no-cache
+/sw.js
+  Cache-Control: no-cache
+/nt/service-worker.js
+  Cache-Control: no-cache
+/fk/service-worker.js
+  Cache-Control: no-cache
+/pi/service-worker.js
+  Cache-Control: no-cache
+/pinnacle/service-worker.js
+  Cache-Control: no-cache
+/mj/service-worker.js
+  Cache-Control: no-cache
+/rg/service-worker.js
+  Cache-Control: no-cache
+/md/service-worker.js
+  Cache-Control: no-cache
+/gb/service-worker.js
+  Cache-Control: no-cache
+/yes/service-worker.js
+  Cache-Control: no-cache
+/tb/service-worker.js
+  Cache-Control: no-cache
+/kgs/service-worker.js
+  Cache-Control: no-cache
+/un/service-worker.js
+  Cache-Control: no-cache
+/rwa/service-worker.js
+  Cache-Control: no-cache
+/gs/service-worker.js
+  Cache-Control: no-cache
+/sf/service-worker.js
+  Cache-Control: no-cache
+/padhle/service-worker.js
+  Cache-Control: no-cache
+/iq/service-worker.js
+  Cache-Control: no-cache
+/vidyakul/service-worker.js
+  Cache-Control: no-cache
+/cw/service-worker.js
+  Cache-Control: no-cache
+/teria/service-worker.js
+  Cache-Control: no-cache
+/vb/service-worker.js
+  Cache-Control: no-cache
+/cds/service-worker.js
+  Cache-Control: no-cache
+/sw/service-worker.js
+  Cache-Control: no-cache
+/sachin/service-worker.js
+  Cache-Control: no-cache
+/master/service-worker.js
+  Cache-Control: no-cache
+/aash/service-worker.js
+  Cache-Control: no-cache
+/sarvam/service-worker.js
+  Cache-Control: no-cache
+/vg/service-worker.js
+  Cache-Control: no-cache
+/sm/service-worker.js
+  Cache-Control: no-cache
+/mm/service-worker.js
+  Cache-Control: no-cache
+/vm/service-worker.js
+  Cache-Control: no-cache
+/kd/service-worker.js
+  Cache-Control: no-cache
+/uc/service-worker.js
+  Cache-Control: no-cache
+/pr/service-worker.js
+  Cache-Control: no-cache
+/pw/service-worker.js
+  Cache-Control: no-cache
+/ac/service-worker.js
+  Cache-Control: no-cache
+/cbse/service-worker.js
+  Cache-Control: no-cache
+/table/service-worker.js
+  Cache-Control: no-cache
+/officer/service-worker.js
+  Cache-Control: no-cache

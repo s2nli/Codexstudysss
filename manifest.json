@@ -1,0 +1,22 @@
+{
+  "id": "/?source=pwa",
+  "name": "CODEX STUDYS App Store",
+  "short_name": "CODEX STUDYS",
+  "description": "All your study apps in one place, for free.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#05070f",
+  "theme_color": "#05070f",
+  "orientation": "portrait-primary",
+  "lang": "en",
+  "categories": ["education"],
+  "icons": [
+    {"src": "logo-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "logo-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "logo-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ],
+  "shortcuts": [
+    {"name": "Join WhatsApp", "url": "https://whatsapp.com/channel/0029VbDI2CGEAKWNSoya5L2w", "icons": [{"src": "logo-192.png", "sizes": "192x192", "type": "image/png"}]}
+  ]
+}
